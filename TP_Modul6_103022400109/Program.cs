@@ -67,8 +67,12 @@ namespace TP_MODUL6_103022400109
             }
             track1.PrintTrackDetails();
 
+            //Console.WriteLine("\n=== TESTING PRECONDITION (NULL) ===");
+            //SayaMusicTrack trackError1 = new SayaMusicTrack(null);
 
-            
+            //Console.WriteLine("\n=== TESTING PRECONDITION (> 10 Juta) ===");
+            //track1.IncreasePlayCount(20000000);
+
         }
     }
 }
